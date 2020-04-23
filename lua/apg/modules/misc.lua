@@ -253,6 +253,14 @@ if APG.cfg[ "physGunMaxRange" ].value  then
 	RunConsoleCommand("physgun_maxrange", APG.cfg["physGunMaxRange"].value) -- Can't run SetInt on a convar that wasn't made in lua
 end
 
+local fd_tool = "fading_door" -- Name of the tool
+hook.Add("CanTool", "apg_noBlackScreen", function(ply, tr, tool)
+	if tool ~= fd_tool || !APG.cfg.fdMat.value then return end
+	local mat = GetConVarString(fd_tool .. "_mat")
+	if !mat then return end
+	if !list.Contains("FDoorMaterials", mat) then return false end
+end)
+
 --[[------------------------------------------
 		Load hooks and timers
 ]]--------------------------------------------
