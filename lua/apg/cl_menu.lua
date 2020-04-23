@@ -92,7 +92,7 @@ local function APGBuildMiscPanel()
 	menu:switch( 568, 20, "Hook FRZR9K into collision (Experimental)", "sleepyPhysHook" )
 	menu:switch( 568, 20, "Allow prop killing", "allowPK" )
 	menu:switch( 568, 20, "Activate Turbo Physics (Requires OSS)", "setTurboPhysics" )
-	menu:switch(568, 20, "Fading Door Materials", "fdMat")
+	menu:switch(568, 20, "Fading Door Materials - " .. APG.cfg.fdMat.desc, "fdMat")
 	menu:panelDone()
 end
 
