@@ -338,6 +338,11 @@ defaultSettings.cfg = {
 	ropeSpam = {
 		value = true,
 		desc = "Fixes rope spam on the map."
+
+	-- Fading Door material fuckery
+	fdMat = {
+		value = true,
+		desc = "Enable / disable the prevention of using materials not listed in the UI (recommended to have enabled)"
 	}
 }
 
