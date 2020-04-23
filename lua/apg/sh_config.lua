@@ -334,6 +334,10 @@ defaultSettings.cfg = {
 	maxScale = {
 		value = 1,
 		desc = "The maximum scale a prop can be. Keep this at 1 if you don't know what you're doing."
+	},
+	ropeSpam = {
+		value = true,
+		desc = "Fixes rope spam on the map."
 	}
 }
 

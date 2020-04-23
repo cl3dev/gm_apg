@@ -337,6 +337,7 @@ local function APGBuildAdvDupePanel()
 
 	menu:initPanel( panel, 0, 40, 0, 35 )
 	menu:numSlider( panel:GetWide(), 20, "Max scale of AdvDupe props", "maxScale", 1, 100, 0 )
+	menu:switch( panel:GetWide(), 20, "Disable rope protection (Stops annoying white rope)", "ropeSpam" )
 	menu:panelDone()
 end
 
