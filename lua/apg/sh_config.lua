@@ -334,6 +334,12 @@ defaultSettings.cfg = {
 	maxScale = {
 		value = 1,
 		desc = "The maximum scale a prop can be. Keep this at 1 if you don't know what you're doing."
+	},
+
+	-- Fading Door material fuckery
+	fdMat = {
+		value = true,
+		desc = "Enable / disable the prevention of using materials not listed in the UI (recommended to have enabled)"
 	}
 }
 
