@@ -332,6 +332,14 @@ local function APGBuildGhostPanel()
 	end
 end
 
+local function APGBuildAdvDupePanel()
+	local panel = APG_panels[ "advdupe" ]
+
+	menu:initPanel( panel, 0, 40, 0, 35 )
+	menu:numSlider( panel:GetWide(), 20, "Max scale of AdvDupe props", "maxScale", 1, 100, 0 )
+	menu:panelDone()
+end
+
 local main_color = Color( 32, 255, 0, 255 )
 local main_color_red = Color( 96, 0, 0, 255 )
 local main_color_darker = Color( 51, 91, 51, 255 )
@@ -513,7 +521,7 @@ local function openMenu( len )
 	end
 
 	-- Build all the expected panels.
-
+	APGBuildAdvDupePanel()
 	APGBuildHomePanel()
 	APGBuildMiscPanel()
 	APGBuildToolsPanel()
