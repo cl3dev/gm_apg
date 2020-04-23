@@ -54,7 +54,7 @@ defaultSettings.modules = { -- Set to true to enable and false to disable module
 	["misc"] = true,
 	["tools"] = true,
 	["logs"] = true,
-	[]
+	["advdupe"] = true
 }
 
 defaultSettings.cfg = {
