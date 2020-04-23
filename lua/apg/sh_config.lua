@@ -54,6 +54,7 @@ defaultSettings.modules = { -- Set to true to enable and false to disable module
 	["misc"] = true,
 	["tools"] = true,
 	["logs"] = true,
+	[]
 }
 
 defaultSettings.cfg = {
@@ -328,6 +329,11 @@ defaultSettings.cfg = {
 	developerDebug = {
 		value = false,
 		desc = "Dev Logs (prints stuff)"
+	}
+	--[[ Advanced Dupe ]]--
+	maxScale = {
+		value = 1
+		desc = "The maximum scale a prop can be. Keep this at 1 if you don't know what you're doing."
 	}
 }
 
