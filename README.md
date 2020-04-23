@@ -48,6 +48,7 @@ to do, so naturally we made our own and decided to share it with you.
 * ⚠ Detours [PhysgunPickup](https://wiki.garrysmod.com/page/GM/PhysgunPickup) for better confirmations
 * ⚠ Detours [SetColor](https://wiki.garrysmod.com/page/Entity/SetColor) to prevent stuff from turning purple/pink unexpectedly
 * ⚠ Detours [SetCollisionGroup](https://wiki.garrysmod.com/page/Entity/SetCollisionGroup) to prevent overrides
+* ⚠ Detours Advanced Dupe functions which might cause compatability issues. This is to prevent a few issues.
 
 Lag triggers are based on fancy algorithms and timers, if you are getting false positives try messing around with the values.
 
