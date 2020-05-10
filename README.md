@@ -1,7 +1,3 @@
-Due to seemingly consistent issues with the code base of APG I've made PUG.
-However I doubt PUG will get any updates because I simply no longer play Garry's mod,
-but if you'd like to check my alternative to APG, check out [__PUG__ on Gitlab](https://gitlab.com/NanoAi/gm_pug) or [__PUG__ Github Mirror](https://github.com/NanoAi/gm_pug)
-
 # APG - Anti Prop Griefing & Crash Protection
 
 ![- APG - Light Weight, Easy to Use, Stops Crashes](https://i.imgur.com/DrbZOgk.png "APG - Light Weight, Easy to Use, Stops Crashes")
@@ -59,3 +55,5 @@ Credits:
 * This project is currently updated and maintained by [NanoAi](http://steamcommunity.com/profiles/76561198096713277)
 * This addon was originally created by [WhileTrue](http://steamcommunity.com/profiles/76561197972967270)
 * Special thanks to [AvarianKnight](http://steamcommunity.com/profiles/76561198174460202) for reviving this project!
+* NoSharp & Clear Revamping APG adding a multitude of crash fixes.
+
